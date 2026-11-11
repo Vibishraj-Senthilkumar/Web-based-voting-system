@@ -1,0 +1,13 @@
+{
+  "name": "Online-Voting-Application-Using-SpringBoot",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && mvn spring-boot:run",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
